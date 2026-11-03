@@ -1,0 +1,134 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Big Cats Gallery</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f1e8;
+            margin: 0;
+            text-align: center;
+            color: #333;
+        }
+
+        header {
+            background-color: #354b2c;
+            color: white;
+            padding: 30px;
+        }
+
+        h1 {
+            font-size: 36px;
+        }
+
+        .gallery {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 25px;
+            padding: 30px;
+        }
+
+        .animal {
+            background-color: white;
+            padding: 15px;
+            width: 280px;
+            border-radius: 10px;
+            box-shadow: 0 3px 8px rgba(0,0,0,0.15);
+        }
+
+        .animal img {
+            width: 100%;
+            height: 250px;
+            object-fit: contain;
+        }
+
+        .credits {
+            font-size: 12px;
+            margin-top: 15px;
+            overflow-wrap: anywhere;
+        }
+
+        a {
+            color: #315d28;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Big Cats Gallery</h1>
+        <p>Discover three amazing members of the big cat family!</p>
+    </header>
+
+    <main>
+        <div class="gallery">
+
+            <div class="animal">
+                <h2>Lioness</h2>
+                <img src="lioness.jpg" alt="Lioness in the wild">
+                <p>
+                    The lioness is a powerful hunter that
+                    plays an important role in her pride.
+                </p>
+                <div class="credits">
+                    Photo: A. Bailey<br>
+                    <a href="https://commons.wikimedia.org/wiki/File:Female_Lioness.jpg">
+                        Original image source
+                    </a><br>
+                    <a href="https://creativecommons.org/licenses/by-sa/3.0/">
+                        CC BY-SA 3.0
+                    </a>
+                </div>
+            </div>
+
+            <div class="animal">
+                <h2>Leopard</h2>
+                <img src="leopard.jpg" alt="Leopard in the wild">
+                <p>
+                    Leopards are known for their beautiful
+                    spotted coats and incredible climbing skills.
+                </p>
+                <div class="credits">
+                    Photo: Schuyler Shepherd<br>
+                    <a href="https://commons.wikimedia.org/wiki/File:Serengeti_Leopard.jpg">
+                        Original image source
+                    </a><br>
+                    <a href="https://creativecommons.org/licenses/by-sa/2.5/">
+                        CC BY-SA 2.5
+                    </a>
+                </div>
+            </div>
+
+            <div class="animal">
+                <h2>Tiger</h2>
+                <img src="tiger.jpg" alt="Tiger in the wild">
+                <p>
+                    Tigers are the largest wild cats and
+                    are recognized by their unique stripes.
+                </p>
+                <div class="credits">
+                    Photo: Christoph Matthias Siebenborn<br>
+                    <a href="https://commons.wikimedia.org/wiki/File:Tiger(2).JPG">
+                        Original image source
+                    </a><br>
+                    <a href="https://creativecommons.org/publicdomain/zero/1.0/">
+                        CC0 Public Domain Dedication
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <footer>
+        <p>Created for my Big Cats Gallery assignment.</p>
+    </footer>
+
+</body>
+</html>
